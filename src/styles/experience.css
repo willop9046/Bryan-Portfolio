@@ -1,0 +1,63 @@
+section.experience{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    animation: fadeIn ease 2s;
+}
+
+section.experience .header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+section.experience .header p.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    transform: translateY(7px);
+}
+
+section.experience .header img{
+    transform: scale(0.75);
+    vertical-align: bottom;
+}
+
+section.experience .content .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.experience .content .year p{
+    font-family: 'Playfair Display', serif;
+    font-size: 96px;
+    font-weight: 400;
+    letter-spacing: 48px;
+    text-align: right;
+    margin: 2rem;
+    margin-right: 5rem;
+}
+
+section.experience .content .events{
+    width: 50%;
+}
+
+section.experience .content .events p{
+    font-family: 'poppins', serif;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 2rem 0;
+    line-height: 2rem;
+    width: 50%;
+    word-wrap: break-word;
+    letter-spacing: 0.8px;
+}
+
+section.experience .content .year{
+    width: 50%;
+}
+
+
+
+

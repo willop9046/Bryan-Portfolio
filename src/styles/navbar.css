@@ -1,0 +1,71 @@
+header{
+    padding: 1rem 0; 
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-container a{
+    text-decoration: none;
+}
+
+.navbar-container a h2{
+    font-family: 'Montagu Slab', serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 4.8px;
+}
+
+.navbar-container .navbar{
+    display: flex;
+    justify-self: center;
+    gap: 2rem;
+}
+
+.navbar-container .navbar a{
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar-container .navbar a:after{
+    content: "";
+    position: absolute;
+    background-color: #252525;
+    background-color: #dadada;
+    height: 1.5px;
+    width: 0;
+    left: 0;
+    bottom: -0.1px;
+    transition: 0.5s;
+}
+
+.navbar-container .navbar a:hover:after{
+    width: 100%;
+}
+
+.navbar-container .navbar a p{
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 1rem, 1rem;
+}
+
+.navbar-container .menu{
+    width: 154px;
+    text-align: right;
+}
+
+.navbar-container img{
+    transform: scale(0.75);
+}
+
+
+
+
+

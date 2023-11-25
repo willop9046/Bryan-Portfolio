@@ -1,0 +1,59 @@
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    animation: fadeIn ease 2s;
+}
+
+footer div.name h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 14px;
+    text-align: center;
+}
+
+footer nav.navbar{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 1.5rem 0;
+    
+}
+
+footer nav.navbar a{
+    text-decoration: none;
+    position: relative;
+}
+
+footer .navbar a:after{
+    content: "";
+    position: absolute;
+    background-color: #252525;
+    background-color: #dadada;
+    height: 1.5px;
+    width: 0;
+    left: 0;
+    bottom: -0.1px;
+    transition: 0.5s;
+}
+
+footer .navbar a:hover:after{
+    width: 100%;
+}
+
+footer nav.navbar a p{
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 1rem, 1rem;
+}
+
+
+footer div.cr{
+    font-family: 'Playfair Display', serif;
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+.contact{
+    padding-bottom: 4rem;
+    animation: fadeIn ease 2s;
+}
+
+.contact .header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    padding-bottom: 4rem;
+}
+
+.contact .header img{
+    transform: scale(0.75);
+    vertical-align: bottom;
+}
+
+.contact .header p.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    transform: translateY(7px);
+}
+
+.contact .content h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+}

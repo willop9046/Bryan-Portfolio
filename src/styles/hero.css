@@ -1,0 +1,29 @@
+div.hero .bg img{
+    height: 60vh;
+    width: 100%;
+    object-fit:cover;
+    vertical-align: bottom;
+    animation: fadeIn ease 2s;
+}
+
+.hero .content{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    max-height: 400px;
+    animation: fadeIn ease 1s;
+}
+
+.hero .content .img{
+    padding: 2rem;
+    border-radius: 10px;
+    display: inline-block;
+    transform: scale(0.75);
+    transform: translateY(-6.5rem);
+}
+
+.hero .content .img2{
+    transform: translateY(-1rem);
+    transform: scale(0.5);
+    width: 50%;
+}

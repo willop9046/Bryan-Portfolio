@@ -1,0 +1,70 @@
+.showcase{
+    padding-bottom: 4rem;
+    animation: fadeIn ease 2s;
+}
+
+.showcase .header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    padding-bottom: 4rem;
+}
+
+.showcase .header img{
+    transform: scale(0.75);
+    vertical-align: bottom;
+}
+
+.showcase .header p.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    transform: translateY(7px);
+}
+
+.showcase .content .grid{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.showcase .content .grid .box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.showcase .content img{
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.showcase .content .grid .box .title{
+    text-align: right;
+}
+
+.showcase .content .grid .box .title h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.showcase .content .grid .box .title .specs{
+    font-family: 'poppins', serif;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #aeaeae;
+}
+
+.showcase .content .grid .box .description{
+    font-family: 'poppins', serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    line-height: 2rem;
+}
+

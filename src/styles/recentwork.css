@@ -1,0 +1,91 @@
+section.recentWork{
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    animation: fadeIn ease 2s;
+}
+
+section.recentWork .header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+section.recentWork .header img{
+    transform: scale(0.75);
+    vertical-align: bottom;
+}
+
+section.recentWork .header p.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    transform: translateY(7px);
+}
+
+section.recentWork .content{
+    margin-top: 4.5rem;
+}
+
+section.recentWork .content .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 4rem;
+    
+}
+
+section.recentWork .content .grid .box{
+    margin: 0 2rem;
+}
+
+section.recentWork .content .grid .box img{
+    width: 100%;
+    vertical-align: bottom;
+    transition: 0.25s all;
+}
+
+section.recentWork .content .grid .box img:hover{
+    border-radius: 20px;
+    transition: 0.25s all;
+}
+
+section.recentWork .content .grid .box .name{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+section.recentWork .content .grid .box .description{
+    font-family: 'poppins', serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 2rem;
+    letter-spacing: 0.8px;
+}
+
+section.recentWork .content .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+section.recentWork .content .btn .cta{
+    display: inline-block;
+    text-decoration: none;
+    border: 0.5px solid #dadada;
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0.8rem;
+    letter-spacing: 0.8px;
+    transition: 0.5s all;
+}
+
+section.recentWork .content .btn .cta:hover{
+    border-radius: 10px;
+    transition: 0.25s all;
+}

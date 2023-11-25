@@ -1,0 +1,78 @@
+section.about{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    animation: fadeIn ease 2s;
+}
+
+section.about .header{
+    display: flex;
+    justify-content: center;
+}
+
+section.about .header img{
+    transform: scale(0.75);
+    vertical-align: bottom;
+}
+
+section.about .header p.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    transform: translateY(7px);
+}
+
+section.about .content{
+    margin-top: 2.5rem;
+}
+
+section.about .content .grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2rem;
+}
+
+section.about .content .grid .pfp img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+
+section.about .content .grid .detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8rem;
+}
+
+section.about .content .grid .detail p{
+    margin: 0;
+    width: 80%;
+}
+
+section.about .content .grid .detail .name{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 7.2px;
+}
+
+section.about .content .grid .detail .career{
+    font-family: 'poppins', serif;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    color: #aeaeae;
+    padding-top: 0.4rem;
+}
+
+section.about .content .grid .detail .description{
+    font-family: 'poppins', serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    line-height: 2rem;
+    margin-top: 4rem;
+}
+
