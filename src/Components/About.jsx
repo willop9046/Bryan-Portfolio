@@ -1,8 +1,8 @@
 import React from 'react'
 import '../styles/about.css'
-import expLeft from '/src/images/expLeft.svg'
-import expRight from '/src/images/expRight.svg'
-import pfp from '/src/images/pfp.jpg'
+import expLeft from '../images/expLeft.svg'
+import expRight from '../images/expRight.svg'
+import pfp from '../images/pfp.jpg'
 
 
 const About = () => {

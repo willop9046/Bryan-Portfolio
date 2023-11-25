@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/experience.css'
-import expLeft from '/src/images/expLeft.svg'
-import expRight from '/src/images/expRight.svg'
+import expLeft from '../images/expLeft.svg'
+import expRight from '../images/expRight.svg'
 
 const Experience = () => {
   return (

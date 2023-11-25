@@ -2,7 +2,7 @@ import React from 'react'
 import { ReactDOM } from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/navbar.css'
-import menu from '/src/images/menu.png'
+import menu from '../images/menu.png'
 
 const Navbar = () => {
   return (

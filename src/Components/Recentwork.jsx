@@ -3,9 +3,9 @@ import '../styles/recentwork.css'
 import { Link } from 'react-router-dom'
 import expLeft from '/src/images/expLeft.svg'
 import expRight from '/src/images/expRight.svg'
-import rw1 from '/src/images/transform.jpg'
-import rw2 from '/src/images/spatiality.jpg'
-import rw3 from '/src/images/forms.jpg'
+import rw1 from '../images/transform.jpg'
+import rw2 from '../images/spatiality.jpg'
+import rw3 from '../images/forms.jpg'
 
 const Recentwork = () => {
   return (

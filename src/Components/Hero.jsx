@@ -1,8 +1,8 @@
 import React from 'react'
 import '../styles/hero.css'
-import heroBg from '/src/images/heroBg.jpg'
-import heroLogo from '/src/images/heroLogo.svg'
-import sketch from '/src/images/sketch.jpg'
+import heroBg from '../images/heroBg.jpg'
+import heroLogo from '../images/heroLogo.svg'
+import sketch from '../images/sketch.jpg'
 
 const Hero = () => {
   return (
