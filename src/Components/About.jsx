@@ -1,18 +1,23 @@
 import React from 'react'
 import '../styles/about.css'
+import expLeft from '/src/images/expLeft.svg'
+import expRight from '/src/images/expRight.svg'
+import pfp from '/src/images/pfp.jpg'
+
+
 const About = () => {
   return (
     <>
       <section className="about limit">
         <div className="header">
-          <img src="/src/images/expLeft.svg" alt="expLeft" />
+          <img src={expLeft} alt="expLeft" />
           <p className="title">ABOUT ME</p>
-          <img src="/src/images/expRight.svg" alt="expRight" />
+          <img src={expRight} alt="expRight" />
         </div>
         <div className="content">
           <div className="grid">
             <div className="pfp box">
-              <img src="/src/images/pfp.jpg" alt="profile picture" />
+              <img src={pfp} alt="profile picture" />
             </div>
             <div className="detail box">
               <p className="name">Bryan Lin</p>

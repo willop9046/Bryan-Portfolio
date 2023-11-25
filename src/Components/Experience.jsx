@@ -1,14 +1,16 @@
 import React from 'react'
 import '../styles/experience.css'
+import expLeft from '/src/images/expLeft.svg'
+import expRight from '/src/images/expRight.svg'
 
 const Experience = () => {
   return (
     <>
       <section className='experience limit'>
         <div className="header">
-          <img src="/src/images/expLeft.svg" alt="expLeft" />
+          <img src={expLeft} alt="expLeft" />
           <p className="title">EXPERIENCE</p>
-          <img src="/src/images/expRight.svg" alt="expRight" />
+          <img src={expRight} alt="expRight" />
         </div>
         <div className="content">
           <div className="19 box">
