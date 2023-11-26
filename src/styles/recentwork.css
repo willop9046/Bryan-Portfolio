@@ -32,7 +32,6 @@ section.recentWork .content .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 0 4rem;
-    
 }
 
 section.recentWork .content .grid .box{
@@ -92,3 +91,32 @@ section.recentWork .content .btn .cta:hover{
     border-radius: 10px;
     transition: 0.25s all;
 }
+
+@media (max-width: 1275px){
+    section.recentWork .content .grid{
+        padding: 0;
+    }
+}
+
+@media (max-width: 1150px){
+    section.recentWork .content .grid .box{
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 1000px){
+    section.recentWork .content .grid .box img{
+        height: 40%;
+    }
+}
+
+@media (max-width: 876px){
+    section.recentWork .content .grid{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 3rem;
+    }
+    section.recentWork .content .grid .box img{
+        height: 50%;
+    }
+}
+

@@ -27,3 +27,28 @@ div.hero .bg img{
     transform: scale(0.5);
     width: 50%;
 }
+
+@media (max-width: 1275px){
+
+    .hero .content{
+        max-height: 300px;
+    }
+
+    .hero .content .img2{
+        display: none;
+    }
+}
+
+@media (max-width: 727px){
+    .hero .content{
+        margin: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        max-height: 150px;
+    }
+    .hero .content .img{
+        transform: scale(0.75) translateY(-12rem);
+        
+    }
+}

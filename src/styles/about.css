@@ -23,17 +23,18 @@ section.about .header p.title{
 
 section.about .content{
     margin-top: 2.5rem;
+    padding: 0 4rem;
 }
 
 section.about .content .grid{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding: 2rem;
+    display: flex;
+    gap: 4rem;
 }
 
 section.about .content .grid .pfp img{
     width: 100%;
     vertical-align: bottom;
+    
 }
 
 
@@ -41,12 +42,11 @@ section.about .content .grid .detail{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 8rem;
 }
 
 section.about .content .grid .detail p{
     margin: 0;
-    width: 80%;
+    display: inline-block;
 }
 
 section.about .content .grid .detail .name{
@@ -73,5 +73,11 @@ section.about .content .grid .detail .description{
     letter-spacing: 0.8px;
     line-height: 2rem;
     margin-top: 4rem;
+}
+
+@media (max-width: 900px){
+    section.about .content{
+        padding: 0;
+    }
 }
 
