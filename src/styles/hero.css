@@ -45,10 +45,33 @@ div.hero .bg img{
         height: auto;
         display: flex;
         justify-content: center;
-        max-height: 150px;
+        max-height: 210px;
     }
     .hero .content .img{
         transform: scale(0.75) translateY(-12rem);
-        
+    }
+}
+
+@media (max-width: 550px){
+    .hero .content .img{
+        transform: scale(0.65) translateY(-12rem);
+    }
+}
+
+@media (max-width: 480px){
+    .hero .content .img{
+        transform: scale(0.55) translateY(-12rem);
+    }
+    div.hero .bg img{
+        height: 40vh;
+    }
+}
+
+@media (max-width: 412px){
+    .hero .content .img{
+        transform: scale(0.46) translateY(-12rem);
+    }
+    .hero .content{
+        max-height: 170px;
     }
 }

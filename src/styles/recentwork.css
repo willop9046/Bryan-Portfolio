@@ -1,6 +1,6 @@
 section.recentWork{
     padding: 0 2rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
     padding-bottom: 4rem;
     animation: fadeIn ease 2s;
 }
@@ -22,6 +22,7 @@ section.recentWork .header p.title{
     font-weight: 400;
     letter-spacing: 5px;
     transform: translateY(7px);
+    text-align: center;
 }
 
 section.recentWork .content{
@@ -119,4 +120,68 @@ section.recentWork .content .btn .cta:hover{
         height: 50%;
     }
 }
+
+@media (max-width: 750px){
+    section.recentWork .content .btn{
+        margin-top: 6rem;
+    }
+}
+
+@media (max-width: 680px){
+    section.recentWork .content .grid{
+        row-gap: 4rem;
+    }  
+    section.recentWork .content .grid .box img{
+        height: 40%;
+    }
+}
+
+@media (max-width: 670px){
+    section.recentWork .header img:first-child{
+        transform: scale(0.4) translateX(8rem);
+    }
+    section.recentWork .header img:last-child{
+        transform: scale(0.4) translateX(-8rem);
+    }
+}
+
+@media (max-width: 593px){
+    section.recentWork .content .grid .box img{
+        height: 30%;
+    }
+}
+
+@media (max-width: 477px){
+    section.recentWork .content .grid{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+    section.recentWork .content .grid .box img{
+        height: 50%;
+    }
+}
+
+@media (max-width: 400px){
+    section.recentWork .header{
+        padding-bottom: 0rem;
+    }
+    section.recentWork .content .grid{
+        row-gap: 4rem;
+    }
+}
+
+@media (max-width: 367px){
+    section.recentWork .content .btn{
+        margin-top: 8rem;
+    }
+    
+}
+
+@media (max-width: 320px){
+    section.recentWork .content .btn{
+        margin-top: 10rem;
+    }
+}
+
+
 

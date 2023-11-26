@@ -1,5 +1,6 @@
 section.about{
     padding: 2rem 2rem;
+    padding-top: 0;
     animation: fadeIn ease 2s;
 }
 
@@ -19,6 +20,7 @@ section.about .header p.title{
     font-weight: 400;
     letter-spacing: 5px;
     transform: translateY(7px);
+    text-align: center;
 }
 
 section.about .content{
@@ -78,6 +80,21 @@ section.about .content .grid .detail .description{
 @media (max-width: 900px){
     section.about .content{
         padding: 0;
+    }
+}
+
+@media (max-width: 670px){
+    section.about .header img:first-child{
+        transform: scale(0.4) translateX(8rem);
+    }
+    section.about .header img:last-child{
+        transform: scale(0.4) translateX(-8rem);
+    }
+}
+
+@media (max-width: 420px){
+    section.about .content .grid{
+        gap: 2rem;
     }
 }
 

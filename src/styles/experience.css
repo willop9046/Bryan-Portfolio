@@ -1,6 +1,6 @@
 section.experience{
     padding: 0 2rem;
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-bottom: 4rem;
     animation: fadeIn ease 2s;
 }
@@ -17,6 +17,7 @@ section.experience .header p.title{
     font-weight: 400;
     letter-spacing: 5px;
     transform: translateY(7px);
+    text-align: center;
 }
 
 section.experience .header img{
@@ -57,6 +58,46 @@ section.experience .content .events p{
 
 section.experience .content .year{
     width: 50%;
+}
+
+@media (max-width: 670px){
+    section.experience .header img:first-child{
+        transform: scale(0.4) translateX(8rem);
+    }
+    section.experience .header img:last-child{
+        transform: scale(0.4) translateX(-8rem);
+    }
+}
+
+@media (max-width: 1220px){
+    section.experience .content .events p{
+        width: 80%;
+    }
+}
+
+@media (max-width: 460px){
+    section.experience .content .year p{
+        font-size: 65px; 
+    }
+}
+
+@media (max-width: 410px){
+    section.experience{
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+    }
+    section.experience .header img:first-child{
+        display: none;
+    }
+    section.experience .header img:last-child{
+        display: none;
+    }
+}
+
+@media (max-width: 380px){
+    section.experience .content .year p{
+        font-size: 55px; 
+    }
 }
 
 

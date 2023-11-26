@@ -30,3 +30,12 @@
     letter-spacing: 2px;
     text-align: center;
 }
+
+@media (max-width: 670px){
+    section.contact .header img:first-child{
+        transform: scale(0.4) translateX(8rem);
+    }
+    section.contact .header img:last-child{
+        transform: scale(0.4) translateX(-8rem);
+    }
+}

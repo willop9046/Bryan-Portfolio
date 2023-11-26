@@ -1,14 +1,16 @@
 import React from 'react'
 import '../styles/contact.css'
+import expLeft from '../images/expLeft.svg'
+import expRight from '../images/expRight.svg'
 
 const Contact = () => {
   return (
     <>
       <section className="contact limit">
         <div className="header">
-          <img src="/src/images/expLeft.svg" alt="expLeft" />
+          <img src={expLeft} alt="expLeft" />
           <p className="title">CONTACT</p>
-          <img src="/src/images/expRight.svg" alt="expRight" />
+          <img src={expRight} alt="expRight" />
         </div>
         <div className="content">
           <h5>Email: linboss@gmail.com</h5>

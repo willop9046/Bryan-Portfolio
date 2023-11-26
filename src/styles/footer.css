@@ -1,7 +1,9 @@
 footer{
+    padding: 0 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     animation: fadeIn ease 2s;
+
 }
 
 footer div.name h1{

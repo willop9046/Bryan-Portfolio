@@ -69,3 +69,29 @@
     line-height: 2rem;
 }
 
+@media (max-width: 670px){
+    section.showcase .header img:first-child{
+        transform: scale(0.4) translateX(8rem);
+    }
+    section.showcase .header img:last-child{
+        transform: scale(0.4) translateX(-8rem);
+    }
+}
+@media (max-width: 920px){
+    .showcase .content .grid .box{
+        display:inline-block;
+    }
+    .showcase .content .grid .box .title{
+        text-align: left;
+    }
+    .showcase .header{
+        padding: 2rem 0;
+        padding-bottom: 2rem;
+    }
+    .showcase .content .grid .box .title .specs{
+        padding-bottom: 20px;
+    }
+    .showcase{
+        padding-bottom: 2rem;
+    }
+}
