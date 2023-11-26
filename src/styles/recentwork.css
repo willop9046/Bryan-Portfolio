@@ -39,9 +39,11 @@ section.recentWork .content .grid .box{
 }
 
 section.recentWork .content .grid .box img{
+    height: 50%;
     width: 100%;
     vertical-align: bottom;
     transition: 0.25s all;
+    object-fit: cover;
 }
 
 section.recentWork .content .grid .box img:hover{

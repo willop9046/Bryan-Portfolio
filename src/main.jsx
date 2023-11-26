@@ -10,19 +10,21 @@ import Project from './pages/Project.jsx'
 import Contact from './pages/Contact.jsx'
 
 import './main.css'
+import ScrollToTop from './js/ScrollToTop.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 
     <HashRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/project" element={<Project />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      <ScrollToTop />
     </HashRouter>
 
   </React.StrictMode>,
