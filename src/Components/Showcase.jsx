@@ -12,6 +12,7 @@ import cop2 from '../images/cop2.jpg'
 import dv1 from '../images/divulge.jpg'
 import dv2 from '../images/divulge2.jpg'
 import mf from '../images/memorableFactor.jpg'
+import union from '../images/union.jpg'
 
 const Showcase = () => {
   return (
@@ -49,6 +50,19 @@ const Showcase = () => {
               </div>
               <div className="des">
                 <p className="description">This optical illusion immerses viewers deep into the mysterious tunnels and tracks of the coal mine bringing various perspectives when viewed from different angles. By creating individual compartments that represent a new entryway to the minefield, it ultimately guides viewers to the realm of the unknown.</p>
+              </div>
+            </div>
+
+            <div className="box">
+              <div className="title">
+                <h3 className="name">Union</h3>
+                <p className="specs">November 25th, 2023<br/>14.2 x 12.7’ x 6.4’<br/>Paper, Acrylic Rod</p>
+              </div>
+              <div className="img">
+                <img src={union} alt="Union jpg" />
+              </div>
+              <div className="des">
+                <p className="description">Combination of three original sketches, I create this organic model that could either be an exhibition space or an arena. Viewing from certain perspective, the model form a dome shape which resembles the common geometry of a stadium. However, by shifting our perspective, the ground floor space could also represent an exhibition space as natural lighting can perfectly represent the artworks in certain angles. Each material has its purpose to be includes. the plastic balls act as a foundation material in order to held the structure. The paper mesh create curves around the model which resemble with the shape of the plastic balls. The acrylic rod is for aesthetic purpose that match the overall streamline of the model.</p>
               </div>
             </div>
 

@@ -8,6 +8,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .navbar-container a{
@@ -63,6 +64,67 @@ header{
 
 .navbar-container img{
     transform: scale(0.75);
+    cursor: pointer;
+}
+
+.sidebar{
+    width: 175px;
+    height: 100vh;
+    padding-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: 450ms;
+}
+
+.sidebar.active{
+    right: 0;
+    transition: 450ms;
+}
+
+.sidebar-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    text-align: center;
+}
+
+.sidebar-nav a{
+    text-decoration: none;
+    position: relative;
+}
+
+.sidebar-nav a:after{
+    content: "";
+    position: absolute;
+    background-color: #252525;
+    background-color: #dadada;
+    height: 1.5px;
+    width: 0;
+    left: 0;
+    bottom: -0.1px;
+    transition: 0.5s;
+}
+
+.sidebar-nav a:hover:after{
+    width: 100%;
+}
+
+.sidebar-nav a p{
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 1rem, 1rem;
+}
+
+.closeBtn{
+    transform: scale(0.75);
+    cursor: pointer;
+    padding-bottom: 1rem;
 }
 
 @media (max-width: 680px){
